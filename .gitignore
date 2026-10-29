@@ -1,0 +1,17 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/*
+!.vscode/settings.json
+
+# Local development output
+*.log
+coverage/
+dist/
+build/
+
+# Environment files may contain local secrets
+.env
+.env.*
+!.env.example
