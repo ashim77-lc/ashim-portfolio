@@ -71,6 +71,10 @@ skillButtons.forEach((button) => {
   });
 });
 
+if (skillButtons.length) {
+  showSkill(skillButtons[0]);
+}
+
 // Copy the email address.
 const copyButton = document.querySelector("#copy-email");
 const copyFeedback = document.querySelector("#copy-feedback");

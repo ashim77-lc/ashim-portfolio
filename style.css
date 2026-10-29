@@ -126,7 +126,7 @@ a:focus-visible {
 .section-kicker,
 .visual-label,
 .detail-topline {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 750;
   letter-spacing: 1.5px;
 }
@@ -268,25 +268,22 @@ a:focus-visible {
 }
 
 .portrait-tag {
-  position: absolute;
-  right: 12px;
-  bottom: 12px;
-  left: 12px;
+  margin-top: 12px;
   display: flex;
   align-items: center;
   gap: 10px;
   padding: 11px 13px;
-  border: 1px solid rgba(217, 222, 218, 0.9);
+  border: 1px solid var(--border);
   border-radius: 10px;
-  background: rgba(251, 250, 247, 0.95);
-  font-size: 11px;
+  background: var(--surface);
+  font-size: 13px;
   font-weight: 700;
 }
 
 .portrait-caption {
   margin-top: 14px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
 }
 
@@ -327,10 +324,10 @@ a:focus-visible {
 }
 
 .section-intro {
-  max-width: 335px;
+  max-width: 360px;
   margin: 0 0 3px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.8;
 }
 
@@ -417,7 +414,7 @@ a:focus-visible {
   left: 17px;
   color: currentColor;
   opacity: 0.88;
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .visual-icon {
@@ -462,7 +459,7 @@ a:focus-visible {
   align-items: center;
   gap: 8px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 750;
   letter-spacing: 0.9px;
 }
@@ -482,10 +479,10 @@ a:focus-visible {
 }
 
 .project-body > p {
-  min-height: 66px;
+  min-height: 72px;
   margin: 0;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -501,7 +498,7 @@ a:focus-visible {
 
 .project-type {
   color: var(--muted);
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .future-arrow {
@@ -517,7 +514,7 @@ a:focus-visible {
 .projects-note {
   margin: 22px 0 0;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .projects-note span {
@@ -541,25 +538,24 @@ a:focus-visible {
 }
 
 .skill-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   align-content: start;
-  align-items: start;
-  flex-wrap: wrap;
-  gap: 11px;
+  gap: 12px;
 }
 
 .skill-chip {
-  min-height: 45px;
+  min-height: 56px;
   display: inline-flex;
   align-items: center;
   gap: 22px;
-  padding: 10px 14px;
+  padding: 12px 18px;
   border: 1px solid #D0D7D0;
   border-radius: 9px;
   background: rgba(251, 250, 247, 0.72);
   color: var(--text);
   cursor: pointer;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 650;
   text-align: left;
   transition: background 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease;
@@ -587,7 +583,6 @@ a:focus-visible {
 }
 
 .skill-detail {
-  min-height: 205px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -603,7 +598,7 @@ a:focus-visible {
   align-items: center;
   gap: 9px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .detail-dot {
@@ -621,7 +616,7 @@ a:focus-visible {
 .detail-copy {
   margin: 0;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -629,7 +624,7 @@ a:focus-visible {
   margin-top: auto;
   padding-top: 20px;
   color: var(--accent-dark);
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 750;
   letter-spacing: 1px;
 }
@@ -639,9 +634,9 @@ a:focus-visible {
 }
 
 .skills-footnote {
-  margin: 19px 0 0;
+  margin: 28px 0 0;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
 }
 
 /* ABOUT */
@@ -664,7 +659,7 @@ a:focus-visible {
 .about-copy p {
   margin: 0 0 17px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.9;
 }
 
@@ -774,7 +769,7 @@ a:focus-visible {
 .site-footer > span {
   margin: 0;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
 }
 
 @media (max-width: 600px) {
