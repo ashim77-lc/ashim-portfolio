@@ -767,6 +767,21 @@ a:focus-visible {
   justify-self: end;
 }
 
+.footer-wrap {
+  background: var(--text);
+  color: var(--white);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-wrap .brand > span {
+  color: #A8C6BE;
+}
+
+.footer-wrap .site-footer p,
+.footer-wrap .site-footer > span {
+  color: #AEB8B3;
+}
+
 .footer-brand {
   font-size: 23px;
   flex-shrink: 0;
