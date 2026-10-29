@@ -1,4 +1,3 @@
-
 const skillDetails = {
   python: {
     title: "Python",
@@ -70,6 +69,10 @@ skillButtons.forEach((button) => {
     showSkill(button);
   });
 });
+
+if (skillButtons.length) {
+  showSkill(skillButtons[0]);
+}
 
 // Copy the email address.
 const copyButton = document.querySelector("#copy-email");
