@@ -764,7 +764,24 @@ a:focus-visible {
 }
 
 .site-footer > span {
+  justify-self: start;
+}
+
+.footer-links {
+  display: flex;
+  gap: 22px;
   justify-self: end;
+}
+
+.footer-links a {
+  color: #D2D9D4;
+  font-size: 13px;
+  font-weight: 600;
+  transition: color 180ms ease;
+}
+
+.footer-links a:hover {
+  color: var(--white);
 }
 
 .footer-wrap {
